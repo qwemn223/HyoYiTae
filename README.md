@@ -45,7 +45,8 @@ HyoYiTae/
 ├── docs/
 │   └── data_preprocessing_notes.md   # 결측치 처리 / 파생변수 정리
 ├── notebooks/                # 각자 실험용 노트북
-└── data/                      # train.csv, test.csv 등 (gitignore 처리됨)
+├── data/                      # train.csv, test.csv 등 (gitignore 처리됨)
+└── submissions/               # 노트북 실행 결과(제출용 csv) 모음 (gitignore 처리됨)
 ```
 
 ## 팀원

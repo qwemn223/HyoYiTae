@@ -3,9 +3,11 @@
 train.csv
 test.csv
 sample_submission.csv
-submit*.csv
 open.zip
 open_1.zip
+
+# 제출/결과 파일 (별도 폴더에 모아두되, 깃허브에는 올리지 않음)
+submissions/
 
 # 모델/체크포인트
 *.pkl
