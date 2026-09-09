@@ -1,19 +1,14 @@
-# 데이터 파일 (용량/규정상 절대 커밋 금지)
+# Data files (규칙 4: 데이터 파일 업로드 방지)
+data/
 *.csv
-train.csv
-test.csv
-sample_submission.csv
-submit*.csv
-open.zip
-open_1.zip
+*.parquet
 
-# 모델/체크포인트
-*.pkl
-*.pth
-
-# 환경/캐시
+# Python & Notebook cache
 __pycache__/
+*.py[cod]
 .ipynb_checkpoints/
-.venv/
-venv/
+
+# OS / IDE
 .DS_Store
+.vscode/
+.idea/
