@@ -1,14 +1,23 @@
 # Data files (규칙 4: 데이터 파일 업로드 방지)
 data/
 *.csv
-*.parquet
+train.csv
+test.csv
+sample_submission.csv
+open.zip
+open_1.zip
 
-# Python & Notebook cache
+# 제출/결과 파일 (별도 폴더에 모아두되, 깃허브에는 올리지 않음)
+submissions/
+
+# 모델/체크포인트
+*.pkl
+*.pth
+
+# 환경/캐시
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
-
-# OS / IDE
+.venv/
+venv/
 .DS_Store
-.vscode/
-.idea/
