@@ -21,3 +21,4 @@ __pycache__/
 .venv/
 venv/
 .DS_Store
+.venv_ml/
