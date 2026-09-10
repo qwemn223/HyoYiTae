@@ -1,5 +1,4 @@
-# Data files (규칙 4: 데이터 파일 업로드 방지)
-data/
+# 데이터 파일 (용량/규정상 절대 커밋 금지)
 *.csv
 train.csv
 test.csv
@@ -16,8 +15,8 @@ submissions/
 
 # 환경/캐시
 __pycache__/
-*.py[cod]
 .ipynb_checkpoints/
-.venv/
-venv/
+.venv*/
+venv*/
+env/
 .DS_Store
