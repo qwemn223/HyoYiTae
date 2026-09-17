@@ -21,3 +21,6 @@ venv*/
 env/
 .DS_Store
 .venv_ml/
+
+# 에이전트 도구 캐시
+.serena/
